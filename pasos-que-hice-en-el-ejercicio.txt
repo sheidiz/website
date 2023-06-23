@@ -1,0 +1,16 @@
+Desafio 3
+(EJERCICIO 1)
+1. Desde el repositorio creo un archivo status.js, y hago el add+commit+push a github.
+2. Creo y salto a la rama git checkout -b custom-navbar, y creo archivos dentro (sin hacer add ni nada)
+3. Para saltar a la main y hacer los cambios, antes hago un git stash --include-untracked que me stashea los archivos para luego continuar.
+4. Hago un git checkout a main y luego borro con git rm status.js. 
+5. Guardo el cambio con git add+commit+push
+6. Hago un git checkout custom-navbar y dentro un git stash pop para recuperar mis archivos
+
+(EJERCICIO 2)
+1. Dentro del mismo repositorio creo y salto a nueva rama git checkout -b front-react.
+2. Creo archivos de lo que estuve trabajando, y le hago un add+commit+push
+3. Creo un tag con git tag v1.0.0
+4. Dentro de la rama main hago un git push origin --tags para enviarlo a github
+5. Finalmente desde main hago un git merge front-react para mergearlo en la main.
+6. Ultimo paso hago un git push para que los cambios se vayan a GitHub
