@@ -10,7 +10,8 @@ Desafio 3
 (EJERCICIO 2)
 1. Dentro del mismo repositorio creo y salto a nueva rama git checkout -b front-react.
 2. Creo archivos de lo que estuve trabajando, y le hago un add+commit+push
-3. Creo un tag con git tag v1.0.0
+3. Creo un tag con git tag v1.0.0 y lo pusheo tambien.
 4. Dentro de la rama main hago un git push origin --tags para enviarlo a github
-5. Finalmente desde main hago un git merge front-react para mergearlo en la main.
+5. Finalmente desde rama main hago un git merge front-react para mergearlo en la main.
 6. Ultimo paso hago un git push para que los cambios se vayan a GitHub
+ACLARACION: En un caso real lo subiria de la rama front-react a la rama dev, y luego de la revision (con el pull request) es que se mergearia con el main. No cree la rama dev porque en el ejercicio no la nombraba.
